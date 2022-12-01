@@ -1,33 +1,31 @@
-{
+
+  
+  
+  {
     "status": true,
     "data": [
       {
         "id": 1,
         "catagroy_name": "Realme",
-        "name": "TechLife Buds T100",
-        "img": "https://m.media-amazon.com/images/I/61ljxTBpTCL._SX522_.jpg",
-        "total": 1499
+        "img": "https://gizchina.it/wp-content/uploads/2022/08/Realme-logo-1.jpg"
        
       },
   
       {
          "id": 1,
         "catagroy_name": "boAT",
-        "name": "TechLife Buds T100",
-        "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/19523994/2022/8/18/eda33014-023d-4844-9221-57ed23b040301660801220138-Realme-Unisex-Headphones-3421660801219708-1.jpg",
-        "total": 1499
+    
+        "img": "https://www.itvoice.in/wp-content/uploads/2020/06/download-2-1.png"
+    
         
       },
       {
           "id": 1,
         "catagroy_name": "BOULT AUDIO",
-        "name": "White Y1 True Wireless Earbuds",
-        "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16436480/2022/4/13/e01605b1-e8ce-4940-8913-bc1813ae9b3d1649841499084-BOULT-AUDIO-Y1-True-Wireless-Earbuds---White-775164984149882-1.jpg",
-        "total": 1299
+       
+        "img": "https://www.whiteriversmedia.com/wp-content/uploads/2020/08/Boult-Audio.jpg"
+  
         
       }
     ]
   }
-  
-  
-  

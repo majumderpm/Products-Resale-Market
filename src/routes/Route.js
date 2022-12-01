@@ -3,7 +3,7 @@ import CheckOut from "../Checkout/Checkout";
 import Main from "../layout/Main";
 import Login from "../login/Login";
 import Admin from "../pages/admin/Admin";
-import Category from "../pages/category/Category";
+import Blog from "../pages/blog/Blog";
 import Home from "../pages/home/Home";
 import Register from "../register/Register";
 import PrivateRoute from "./PrivateRoute.js/PrivateRoute";
@@ -34,9 +34,10 @@ const router = createBrowserRouter([
                 path: '/checkout',
                 element: <PrivateRoute><CheckOut></CheckOut></PrivateRoute>
             },
+          
             {
-                path: '/category',
-                element: <Category></Category>
+                path: '/blog',
+                element: <Blog></Blog>
             }
         ]
     }

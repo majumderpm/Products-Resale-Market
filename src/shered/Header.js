@@ -14,7 +14,7 @@ const Header = () => {
 
   const menuitem = <React.Fragment>
     <li className="mx-4"><Link to="/" className="uppercase text-sm tracking-wide text-primary">Home</Link></li>
-    <li className="mx-4"><Link to="/category" className="uppercase text-sm tracking-wide text-primary">Categories </Link></li>
+    <li className="mx-4"><Link to="/blog" className="uppercase text-sm tracking-wide text-primary">Blog </Link></li>
     {
       user?.email ?
         <>

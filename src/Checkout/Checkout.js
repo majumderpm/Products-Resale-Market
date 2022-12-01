@@ -55,7 +55,7 @@ const CheckOut = () => {
                                     <textarea name="note" className="flex items-center w-full px-4 py-3 text-sm border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-blue-600" rows="4" placeholder="Notes for delivery"></textarea>
                                 </div>
                                 <div className="mt-4">
-                                    <button className="w-full px-6 py-2 text-blue-200 bg-blue-600 hover:bg-blue-900">Process</button>
+                                    <button className="w-full px-6 py-2 text-blue-200 bg-transparent hover:bg-primary">Process</button>
                                 </div>
                             </div>
                         </form>

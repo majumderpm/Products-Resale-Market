@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+
+.blog{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20%;
+}
+.collapse{
+  margin-bottom: 20px;
+  border-radius: 16px;
+}
+.collapse-content{
+ 
+  border: 1px solid rgb(203 213 225);
+}

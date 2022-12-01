@@ -1,11 +1,17 @@
 import { GoogleAuthProvider } from 'firebase/auth';
 import React, { useContext } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import google from '../../assets/images/google.png';
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 
 const SocialLogin = () => {
 
     const googleProvider = new GoogleAuthProvider();
+    const navigate = useNavigate();
+    const location = useLocation();
+
+
+    const from = location.state?.from?.pathname || '/';
 
 
     const { googleSignin } = useContext(AuthContext);
